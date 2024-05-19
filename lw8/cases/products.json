@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "category_id": 1,
+      "title": "Test Product",
+      "content": "This is a test product",
+      "price": 200,
+      "old_price": 120,
+      "status": 1,
+      "keywords": "test, product",
+      "description": "A test product description",
+      "hit": 1
+    },
+    {
+      "category_id": 2,
+      "title": "Product 2",
+      "content": "Content of product 2",
+      "price": 200,
+      "old_price": 220,
+      "status": 0,
+      "keywords": "product, two",
+      "description": "Description of product 2",
+      "hit": 0
+    }
+  ]
+}
