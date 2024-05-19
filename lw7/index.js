@@ -38,7 +38,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var axios_1 = require("axios");
 var nock = require("nock");
-// Функция, которая получает курс валюты
 function getCurrencyRate(currency) {
     return __awaiter(this, void 0, void 0, function () {
         var response, error_1;
@@ -59,7 +58,6 @@ function getCurrencyRate(currency) {
         });
     });
 }
-// mock url: https://api.exchangeratesapi.io/latest?base=USD&symbols=EUR
 (function () { return __awaiter(void 0, void 0, void 0, function () {
     var rateRUB;
     return __generator(this, function (_a) {
